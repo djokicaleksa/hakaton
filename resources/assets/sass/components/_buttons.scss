@@ -1,0 +1,16 @@
+/**
+ *
+ * Buttons
+ *
+ */
+
+a, button {
+	text-decoration: none;
+  transition: all .3s ease;
+
+  @include hover-active-focus {
+  	text-decoration: none;
+  }
+}
+
+
